@@ -20,13 +20,12 @@ header{
 
 nav ul{
   list-style-type: none;
-  margin:0;
-  padding:0;
 }
 
 nav{
   background-color: lightblue;
   text-align: center;
+  padding:.5em
 }
 
 nav ul{
@@ -54,6 +53,11 @@ q{
   color: black;
 }
 
+blockquote{
+  font-style:italic;
+  font-size: 2rem;
+}
+
 figcaption{
   font-style: italic;
 }
@@ -72,10 +76,15 @@ a:hover {
 
 cite{
   color:orange;
+  text-align:right;
 }
 
 dt {
   font-weight: bold;
+}
+
+dd{
+  margin:0
 }
 
 em {
@@ -98,17 +107,9 @@ ol {
   font-style:normal;
 }
 
-.quote {
-  font-size: 2rem;
-}
-
-.large{
-  font-size:2rem;
-  font-weight:bold;
-}
 
 ol {
-  list-style-type:none;
+  list-style-type:circle;
 }
 
 img {
@@ -124,7 +125,6 @@ figure{
 
 
 footer {
-  text-align:left;
   background-color: lightblue;
   padding: .5em;
 }

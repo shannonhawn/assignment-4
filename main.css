@@ -1,0 +1,68 @@
+html {
+  background-color: beige;
+}
+
+h1{
+  font-weight:bold;
+  font-size: 5rem;
+  font-style: normal;
+  font-family: "Bevan", normal;
+  line-height: 1.5;
+  color:brown;
+}
+
+q{
+  font-style: italic;
+  font-size: 2rem;
+}
+
+li {
+  font-weight: bold;
+}
+
+a{
+  color:brown;
+}
+
+a:hover {
+  color: blue;
+}
+
+cite{
+  color:blue;
+}
+
+dt {
+  font-weight: bold;
+}
+
+em {
+  color:red;
+  font-style: normal;
+}
+
+ul {
+  list-style-type:lower-roman;
+}
+
+ol {
+  list-style-type:underline;
+}
+
+.mars {
+  font-size: 1rem;
+  font-style:normal;
+}
+
+.quote {
+  font-size: 5rem;
+}
+
+.large{
+  font-size:2rem;
+  font-weight:bold;
+}
+
+ol {
+  list-style-type:none;
+}

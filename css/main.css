@@ -9,11 +9,13 @@ h1{
   font-family: "Bevan", normal;
   line-height: 1.5;
   color:brown;
+  margin:0em;
 }
 
 header{
-  color:white;
   text-align: center;
+  background-color: lightblue;
+  margin: 0em
 }
 
 nav ul{
@@ -22,8 +24,8 @@ nav ul{
   padding:0;
 }
 
-nav {
-  background-color: none;
+nav{
+  background-color: lightblue;
   text-align: center;
 }
 
@@ -49,7 +51,7 @@ nav a{
 q{
   font-style: italic;
   font-size: 2rem;
-  color: orange;
+  color: black;
 }
 
 figcaption{
@@ -87,6 +89,8 @@ ul {
 
 ol {
   list-style-type:underline;
+  background-color: lightblue;
+  margin: 0;
 }
 
 .mars {
@@ -105,4 +109,22 @@ ol {
 
 ol {
   list-style-type:none;
+}
+
+img {
+  width: 100%
+}
+
+figure{
+  border: 1px solid #000;
+  border-radius: 10px;
+  text-align: center;
+  padding: 1em 1em 1em 1em;
+}
+
+
+footer {
+  text-align:left;
+  background-color: lightblue;
+  padding: .5em;
 }

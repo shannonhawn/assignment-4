@@ -1,0 +1,108 @@
+html {
+  background-color: beige;
+}
+
+h1{
+  font-weight:bold;
+  font-size: 2rem;
+  font-style: normal;
+  font-family: "Bevan", normal;
+  line-height: 1.5;
+  color:brown;
+}
+
+header{
+  color:white;
+  text-align: center;
+}
+
+nav ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+nav {
+  background-color: none;
+  text-align: center;
+}
+
+nav ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+nav li{
+  display:inline-block;
+}
+
+nav a{
+  display: inline-block;
+  padding: 0.5em .75em;
+  background-color: grey;
+  color:#fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+q{
+  font-style: italic;
+  font-size: 2rem;
+  color: orange;
+}
+
+figcaption{
+  font-style: italic;
+}
+
+li {
+  font-weight: bold;
+}
+
+a{
+  color:maroon;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+cite{
+  color:orange;
+}
+
+dt {
+  font-weight: bold;
+}
+
+em {
+  color:grey;
+  font-style: normal;
+}
+
+ul {
+  list-style-type:lower-roman;
+}
+
+ol {
+  list-style-type:underline;
+}
+
+.mars {
+  font-size: 1rem;
+  font-style:normal;
+}
+
+.quote {
+  font-size: 2rem;
+}
+
+.large{
+  font-size:2rem;
+  font-weight:bold;
+}
+
+ol {
+  list-style-type:none;
+}
